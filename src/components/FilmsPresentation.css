@@ -1,0 +1,47 @@
+#film-catalog.container {
+    max-width: max-content;
+}
+
+.poster {
+    width: 60%;
+}
+
+@media only screen and (min-width: 992px) {
+    .poster {
+        width: 10%;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .poster {
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .poster {
+        width: 50%;
+      
+        border-radius: 95px;
+    }
+}
+
+.card-stacked {
+    overflow-wrap: break-word;
+    width: 30%;
+}
+
+.card-content {
+    padding: 0 !important;
+}
+
+#film-catalog .card-content div {
+    height: 100%;
+    color: brown
+}
+
+#film-catalog .info .title {
+    height: 12%;
+    color: brown;
+}
